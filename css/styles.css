@@ -1,3 +1,38 @@
+:root {
+    --first-text-color: #757575;
+    --second-text-color: #212121;
+    --accent-color: #2196F3;
+    --footer-color: rgba(255, 255, 255, 0.6);
+    --accent-background-color: #2F303A;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --portfolio-background: #F5F5F5;
+    --portfolio-button: #F5F4FA;
+    --button-hero-activ: #188CE8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 1600px;
+    margin: 0 auto;
+    background-color: var(--white-color);
+    color: var(--first-text-color);
+    line-height: 1.2;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
