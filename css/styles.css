@@ -26,12 +26,68 @@ ul {
     list-style: none;
 }
 
+.head-menu {
+    width: 100%;
+    height: 80px;
+    padding-top: 30px;
+}
 
+.menu {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin-left: 215px;
+    margin-right: 215px;
 
+}
 
+.nav-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
 
+.ul-header {
+    padding-left: 0;
+    margin-bottom: 0;
+}
 
+.li-nav {
+    display: inline-block;
+    padding-left: 50px;
+}
 
+.logom {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+    text-decoration: none;
+    margin-right: 90px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logom .logo {
+    color: var(--accent-color);
+}
+
+.link-nav {
+    color: var(--second-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+    color: var(--accent-color);
+}
+
+.link-nav.current {
+    color: var(--accent-color);
+}
 
 .visually-hidden {
     position: absolute;
