@@ -14,12 +14,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  font-weight: 400;
-  width: 1600px;
-  margin: 0 auto;
   background-color: var(--white-color);
   color: var(--first-text-color);
-  line-height: 1.2;
 }
 
 .head-menu {
@@ -47,6 +43,7 @@ body {
   color: var(--black-color);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
+  line-height: 1.2;
 }
 
 .logom .logo {
@@ -58,10 +55,21 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
+  line-height: 1.1;
+}
+
+.link-nav-cont {
+  color: var(--first-text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  line-height: 1.1;
 }
 
 .link-nav:hover,
-.link-nav:focus {
+.link-nav:focus,
+.link-nav-cont:hover,
+.link-nav-cont:focus {
   color: var(--accent-color);
 }
 
@@ -92,6 +100,7 @@ body {
 }
 
 .button-port {
+  font-family: inherit;
   width: 112px;
   height: 38px;
   background: var(--portfolio-button);
@@ -151,6 +160,7 @@ body {
 .contacts {
   color: var(--footer-color);
   text-decoration: none;
+  font-style: normal;
 }
 
 .contacts:hover,
@@ -180,6 +190,9 @@ body {
 }
 
 .hero-button {
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   width: 216px;
   height: 50px;
   left: 692px;
@@ -189,6 +202,8 @@ body {
   border-radius: 4px;
   color: var(--white-color);
   font-size: 16px;
+  line-height: 1.9;
+  font-weight: 700;
   font-family: inherit;
 }
 
@@ -207,6 +222,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-text-color);
+  line-height: 1.1;
+  font-size: 14px;
 }
 
 .team-sec {
@@ -219,6 +236,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  line-height: 1.2;
 }
 
 .name {
@@ -227,10 +245,12 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  line-height: 1.2;
 }
 
 .specialty {
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
+  line-height: 1.2;
 }
