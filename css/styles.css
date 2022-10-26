@@ -157,6 +157,12 @@ body {
   letter-spacing: 0.03em;
 }
 
+.contacts-address {
+  color: var(--white-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
 .contacts {
   color: var(--footer-color);
   text-decoration: none;
@@ -164,8 +170,10 @@ body {
 }
 
 .contacts:hover,
-.contacts:focus {
-  color: var(--white-color);
+.contacts:focus,
+.contacts-address:hover,
+.contacts-address:focus {
+  color: var(--accent-color);
 }
 
 .foot-logo {
